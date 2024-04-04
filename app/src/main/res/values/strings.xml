@@ -13,4 +13,14 @@
     <string name="formatoCVV">***</string>
     <string name="formatoCorreo">Escribe tu correo electrónico</string>
     <string name="hNombre">Nombre completo</string>
+    <string name="ingresa_nombre">Por favor ingresa tu nombre.</string>
+    <string name="valor_requerido">Este campo es requerido.</string>
+    <string name="ingresa_tarjeta">Por favor ingresa tu tarjeta.</string>
+    <string name="ingresa_fecha">Por favor ingresa la fecha de expiración.</string>
+    <string name="ingresa_CVV">Por favor ingresa el CVV.</string>
+    <string name="ingresa_correo">Por favor ingresa tu correo electrónico.</string>
+    <string name="l_tarjeta">El número de la tarjeta debe ser de 16 dígitos.</string>
+    <string name="l_tarjeta_error">Ingresa 16 dígitos.</string>
+    <string name="l_cvv">El CVV debe tener de 3 a 4 dígitos.</string>
+    <string name="l_cvv_error">Ingresa de 3 a 4 dígitos.</string>
 </resources>
