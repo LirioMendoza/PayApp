@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Nombre">クレジットカード名義人氏名</string>
+    <string name="nTarjeta">カード番号</string>
+    <string name="tipo">カードの種類</string>
+    <string name="fExpi">有効期限</string>
+    <string name="correo">Eメール</string>
+    <string name="monto">支払い可能な金額</string>
+    <string name="pagar">支払いを確認する</string>
+    <string name="formatoCorreo">メールを書いてください</string>
+    <string name="hNombre">フルネーム</string>
+    <string name="ingresa_nombre">お名前を入力してください。</string>
+    <string name="valor_requerido">この項目は必須です。</string>
+    <string name="ingresa_tarjeta">カードを入力してください。</string>
+    <string name="ingresa_fecha">有効期限を入力してください。</string>
+    <string name="ingresa_CVV">CVVを入力してください。</string>
+    <string name="ingresa_correo">あなたのメールアドレスを入力してください。</string>
+    <string name="l_tarjeta">カード番号は 16 桁である必要があります。</string>
+    <string name="l_tarjeta_error">16桁を入力してください。</string>
+    <string name="l_cvv">CVV は 3 ～ 4 桁である必要があります。</string>
+    <string name="l_cvv_error">3～4桁で入力してください。</string>
+    <string name="formatoExA">年</string>
+    <string name="formatoExM">月</string>
+    <string name="ingresa_mes">有効期限月を入力してください。</string>
+    <string name="l_mes">有効な月 (1 ～ 12) を入力してください。</string>
+    <string name="l_mes_error">無効な月です。</string>
+    <string name="ingresa_anio">有効期限年を入力してください。</string>
+    <string name="l_anio">有効な年を入力してください。</string>
+    <string name="l_anio_error">無効な年です。</string>
+    <string name="fExpiValida">有効な日付を入力してください。</string>
+    <string name="fecha_error">有効期限が切れています。</string>
+    <string name="exito">支払いは成功しました。</string>
+    <string name="noExito">支払いが拒否されました</string>
+    <string name="formato_correo">正しいメールアドレスを入力してください。</string>
+    <string name="formato_correo_error">無効なメールです。</string>
+</resources>

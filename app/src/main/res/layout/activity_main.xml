@@ -10,11 +10,11 @@
         android:id="@+id/tvNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="260dp"
         android:text="@string/Nombre"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +27,7 @@
         android:hint="@string/hNombre"
         android:inputType="text"
         android:maxLength="128"
-        android:text=""
+        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvNombre"
@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/tvnTarjeta"
-        android:layout_width="207dp"
-        android:layout_height="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:text="@string/nTarjeta"
         android:textSize="20sp"
@@ -55,6 +55,7 @@
         android:hint="@string/formatoNTarjeta"
         android:inputType="number"
         android:maxLength="16"
+        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="@+id/etNombre"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/sTipo"
@@ -62,8 +63,8 @@
 
     <TextView
         android:id="@+id/tvfExpi"
-        android:layout_width="191dp"
-        android:layout_height="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:text="@string/fExpi"
         android:textSize="20sp"
@@ -81,8 +82,8 @@
 
     <TextView
         android:id="@+id/tvCVV"
-        android:layout_width="63dp"
-        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/cvv"
         android:textSize="20sp"
@@ -91,12 +92,14 @@
 
     <EditText
         android:id="@+id/etCVV"
-        android:layout_width="100dp"
+        android:layout_width="104dp"
         android:layout_height="55dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
         android:ems="10"
         android:hint="@string/formatoCVV"
         android:inputType="number"
+        android:importantForAutofill="no"
         android:maxLength="4"
         app:layout_constraintEnd_toEndOf="@+id/etnTarjeta"
         app:layout_constraintTop_toBottomOf="@+id/tvCVV" />
@@ -119,6 +122,7 @@
         android:ems="10"
         android:hint="@string/formatoCorreo"
         android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="@+id/etCVV"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -134,13 +138,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235" />
+        app:layout_constraintVertical_bias="0.134" />
 
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="24dp"
         android:text="@string/monto"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/tvNombre"
@@ -157,21 +161,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado"
-        app:layout_constraintVertical_bias="0.269"
+        app:layout_constraintVertical_bias="0.237"
         tools:text="$2,280.00" />
 
     <Button
         android:id="@+id/btPagar"
-        android:layout_width="219dp"
-        android:layout_height="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/pagar"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCorreo"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintVertical_bias="0.515" />
 
     <EditText
         android:id="@+id/etMes"
@@ -181,6 +185,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="@string/formatoExM"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:maxLength="2"
         app:layout_constraintStart_toStartOf="@+id/tvfExpi"
@@ -202,6 +207,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="@string/formatoExA"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:maxLength="2"
         app:layout_constraintStart_toEndOf="@+id/tvSlash"

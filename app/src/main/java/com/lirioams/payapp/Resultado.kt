@@ -2,10 +2,8 @@ package com.lirioams.payapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
-import com.lirioams.payapp.databinding.ActivityMainBinding
 import com.lirioams.payapp.databinding.ActivityResultadoBinding
 import kotlin.random.Random
 
@@ -29,7 +27,9 @@ class Resultado : AppCompatActivity() {
             val monto = params.getString("monto")
 
             binding.tvMontoT.text = getString(R.string.montoValor, monto)
-            binding.tvFecha.text = getString(R.string.fecha)
+            binding.tvTarjetaT.text = getString(R.string.formatoTarjeta, cardNumber?.takeLast(4))
+            binding.tvNombreT.text = name
+            binding.tvEmailT.text = email
 
             if(exito()){
                 binding.tvResultado.text = getText(R.string.exito)

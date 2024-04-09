@@ -33,10 +33,10 @@
     <string name="l_anio_error">Año inválido.</string>
     <string name="fExpiValida">Por favor ingresa una fecha válida.</string>
     <string name="fecha_error">Fecha expirada.</string>
-    <string name="montoValor">$%s</string>
+    <string name="montoValor" translatable="false">$%s</string>
     <string name="exito">El pago fue exitoso.</string>
     <string name="noExito">El pago fue rechazado</string>
     <string name="formato_correo">Por favor ingresa un correo válido.</string>
     <string name="formato_correo_error">Correo inválido.</string>
-    <string name="fecha">\"\"</string>
+    <string name="formatoTarjeta" translatable="false">**** **** **** %s</string>
 </resources>

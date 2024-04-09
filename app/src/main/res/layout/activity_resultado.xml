@@ -47,17 +47,77 @@
         tools:text="$2,280.00" />
 
     <TextView
-        android:id="@+id/tvFecha"
-        android:layout_width="260dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="48dp"
-        android:gravity="center"
-        android:text="TextView"
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/hNombre"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.374"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMontoT"
-        tools:text="08 marzo 2024, 19:00:34 h" />
+        app:layout_constraintTop_toBottomOf="@+id/tvMontoT" />
+
+    <TextView
+        android:id="@+id/tvNombreT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre" />
+
+    <TextView
+        android:id="@+id/tvTarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nTarjeta"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvNombreT"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreT" />
+
+    <TextView
+        android:id="@+id/tvTarjetaT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNombreT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvTarjeta"
+        app:layout_constraintTop_toBottomOf="@+id/tvTarjeta" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/correo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvTarjeta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvTarjetaT"
+        app:layout_constraintTop_toBottomOf="@+id/tvTarjetaT" />
+
+    <TextView
+        android:id="@+id/tvEmailT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvTarjetaT"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:layout_constraintVertical_bias="0.096" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
