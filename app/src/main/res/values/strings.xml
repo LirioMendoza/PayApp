@@ -1,16 +1,15 @@
 <resources>
-    <string name="app_name">PayApp</string>
+    <string name="app_name" translatable="false">PayApp</string>
     <string name="Nombre">Nombre del tarjetahabiente</string>
     <string name="nTarjeta">Número de tarjeta</string>
     <string name="tipo">Tipo de tarjeta</string>
     <string name="fExpi">Fecha de expiración</string>
-    <string name="cvv">CVV</string>
+    <string name="cvv" translatable="false">CVV</string>
     <string name="correo">Correo electrónico</string>
     <string name="monto">Monto a pagar</string>
     <string name="pagar">Confirmar pago</string>
-    <string name="formatoExpi">mes / año</string>
-    <string name="formatoNTarjeta">**** **** **** ****</string>
-    <string name="formatoCVV">***</string>
+    <string name="formatoNTarjeta" translatable="false">**** **** **** ****</string>
+    <string name="formatoCVV" translatable="false">***</string>
     <string name="formatoCorreo">Escribe tu correo electrónico</string>
     <string name="hNombre">Nombre completo</string>
     <string name="ingresa_nombre">Por favor ingresa tu nombre.</string>
@@ -23,4 +22,21 @@
     <string name="l_tarjeta_error">Ingresa 16 dígitos.</string>
     <string name="l_cvv">El CVV debe tener de 3 a 4 dígitos.</string>
     <string name="l_cvv_error">Ingresa de 3 a 4 dígitos.</string>
+    <string name="diagonal" translatable="false">/</string>
+    <string name="formatoExA">aa</string>
+    <string name="formatoExM">mm</string>
+    <string name="ingresa_mes">Por favor ingresa el mes de expiración.</string>
+    <string name="l_mes">Por favor ingresa un més válido (1-12).</string>
+    <string name="l_mes_error">Mes inválido.</string>
+    <string name="ingresa_anio">Por favor ingresa el año de expiración.</string>
+    <string name="l_anio">Por favor ingresa un año válido.</string>
+    <string name="l_anio_error">Año inválido.</string>
+    <string name="fExpiValida">Por favor ingresa una fecha válida.</string>
+    <string name="fecha_error">Fecha expirada.</string>
+    <string name="montoValor">$%s</string>
+    <string name="exito">El pago fue exitoso.</string>
+    <string name="noExito">El pago fue rechazado</string>
+    <string name="formato_correo">Por favor ingresa un correo válido.</string>
+    <string name="formato_correo_error">Correo inválido.</string>
+    <string name="fecha">\"\"</string>
 </resources>
