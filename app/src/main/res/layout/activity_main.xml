@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,9 +26,9 @@
         android:layout_marginTop="4sp"
         android:ems="10"
         android:hint="@string/hNombre"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:maxLength="128"
-        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvNombre"
@@ -53,9 +54,9 @@
         android:ems="10"
         android:gravity="center"
         android:hint="@string/formatoNTarjeta"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:maxLength="16"
-        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="@+id/etNombre"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/sTipo"
@@ -98,8 +99,8 @@
         android:layout_marginEnd="12dp"
         android:ems="10"
         android:hint="@string/formatoCVV"
-        android:inputType="number"
         android:importantForAutofill="no"
+        android:inputType="number"
         android:maxLength="4"
         app:layout_constraintEnd_toEndOf="@+id/etnTarjeta"
         app:layout_constraintTop_toBottomOf="@+id/tvCVV" />
@@ -121,8 +122,8 @@
         android:layout_marginTop="12sp"
         android:ems="10"
         android:hint="@string/formatoCorreo"
-        android:inputType="textEmailAddress"
         android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@+id/etCVV"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -168,6 +169,8 @@
         android:id="@+id/btPagar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/ic_launcher_background"
+        android:backgroundTint="@color/ic_launcher_background"
         android:text="@string/pagar"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -175,7 +178,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCorreo"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.515"
+        app:rippleColor="@color/ic_launcher_background" />
 
     <EditText
         android:id="@+id/etMes"
